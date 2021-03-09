@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> </script>
+  <script         src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">  </script>
+</head>
+<body style="background-image:url('lect.jpg');background-size:100% ;background-repeat:no-repeat;">
+<center><h1>LECTURE REGISTRATION</h1>
+<div class="container" style="margin-right:1%;background-color:black;margin-top:3%;width:40%;">
+<form action="login.html" method="post">
+<div class="row">
+ <div class="col-sm-3" style="color:white;">FIRST NAME</div>
+ <div class="col-sm-3"> 
+ <input type="text" class="form-control" name="lfname" required>
+</div>
+</div></br>
+<div class="row">
+<div class="col-sm-3" style="color:white;">MIDDLE NAME</div>
+<div class="col-sm-3">
+<input type="text" class="form-control" name="lmname" value=" ">
+</div>
+</div></br>
+<div class="row">
+<div class="col-sm-3" style="color:white;">LAST NAME</div>
+<div class="col-sm-3">
+<input type="text" class="form-control" name="llname" value=" ">
+</div>
+</div></br>
+<div class="row">
+ <div class="col-sm-3" style="color:white;">LECTURE ID</div>
+ <div class="col-sm-3"> 
+ <input type="text" class="form-control"  name="lecid" value=" ">
+</div>
+</div></br>
+<div class="row">
+ <div class="col-sm-3" style="color:white;">DEPARTMENT NAME</div>
+					<div class="form-check" style="color:white";>
+						<label class="form-check-label" for="radio1">
+							<input type="radio" class="form-check-input" id="radio1" name="ldname" value="option1" >CS
+						</label>
+					</div>
+					<div class="form-check" style="color:white";>
+						<label class="form-check-label" for="radio2">
+							<input type="radio" class="form-check-input" id="radio2" name="ldnamedname" value="option2">IS
+						</label>
+					</div>
+					<div class="form-check" style="color:white";>
+						<label class="form-check-label" for="radio2">
+							<input type="radio" class="form-check-input" id="radio3" name="ldnamedname" value="option3">EC
+						</label>
+					</div>
+					<div class="form-check" style="color:white";>
+						<label class="form-check-label" for="radio3">
+							<input type="radio" class="form-check-input" id="radio4" name="ldname" value="option4">MECHANICAL
+						</label>
+					</div>
+					<div class="form-check" style="color:white";>
+						<label class="form-check-label" for="radio2">
+							<input type="radio" class="form-check-input" id="radio5" name="ldname" value="option5">CIVIL
+						</label>
+					</div>
+</div></br>
+<div class="row">
+ <div class="col-sm-3" style="color:white;">USERNAME</div>
+ <div class="col-sm-3"> 
+ <input type="text" class="form-control"  name="luser" >
+</div>
+</div></br>
+<div class="row">
+ <div class="col-sm-3" style="color:white;">PASSWORD</div>
+ <div class="col-sm-3"> 
+ <input type="password" class="form-control"  name="lpasswrd" >
+</div>
+</div></br>
+<div class="row">
+<input type="submit" class="btn btn-danger" value="submit" style="margin-left:10%">
+<input type="reset" style="margin-left:6%" class="btn btn-info" value="reset">
+</div>
+</form>
+</div>
+</html>
